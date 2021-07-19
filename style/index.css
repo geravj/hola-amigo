@@ -1,0 +1,167 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html,body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	color: #000;
+	font-size: 38px;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0px 0px 12px #f00;
+	margin-top: 15px;
+}
+
+h2 {
+	color: #000;
+	font-size: 34px;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0px 0px 12px #f00;
+	margin-bottom: 15px;
+}
+
+#contenedor {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#formulario {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#ir_atras { 
+	color: #f00; 
+	display: block; 
+	width: 120px; 
+	cursor: pointer; 
+	margin: 20px auto 0px auto; 
+	padding: 5px; 
+	font-size: 18px; 
+	text-align: center; 
+	font-weight: bolder; 
+	text-decoration: none; 
+}
+
+#ir_atras:hover { 
+	text-shadow: 0px 0px 2px #000; 
+	text-decoration: underline; 
+}
+
+#enlace_borrar {
+	color: #f00;
+	font-weight: bolder;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+#enlace_borrar:hover {
+	text-shadow: 0px 0px 2px #000;
+	text-decoration: underline;
+}
+
+.mensaje_error {
+	color: #000;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 16px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	display: block;
+	text-shadow: 0px 0px 8px #f00;
+}
+
+fieldset {
+	width: 30%;
+	max-width: 100%;
+	height: auto;
+	margin: 20px auto;
+	padding: 2%;
+	border: 2px solid #f00;
+	background-color: #d6d4d4;
+	border-radius: 1em;
+	-webkit-border-radius: 1em;
+}
+
+legend {
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0px 0px 4px #f00;
+}
+
+label {
+	color: #000;
+	display: block;
+	text-align: center;
+	font-weight: bolder;
+	text-shadow: 0px 0px 2px #f00;
+}
+
+input[type="text"] {
+	width: 260px;
+	height: auto;
+	display: block;
+	font-weight: bolder;
+	margin: 8px auto;
+	border: 1px solid #000;
+}
+
+input[type="submit"] {
+	width: 150px;
+	height: auto;
+	display: block;
+	padding: 2%;
+	margin: 0px auto;
+	color: #f00;
+	cursor: pointer;
+	font-weight: bolder;
+	background-color: #000;
+	text-align: center;
+	border: 2px solid #f00;
+	text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+	color: #000;
+	background-color: #f00;
+	border-color: #000;
+}
+
+table {
+	width: 60%;
+	max-width: 100%;
+	height: auto;
+	margin: 0px auto;
+}
+
+table tr {
+	vertical-align: middle;
+}
+
+table th {
+	color: #f00;
+	font-weight: bolder;
+	text-align: center;
+	font-size: 25px;
+	text-decoration: underline;
+	text-shadow: 0px 0px 2px #000;
+}
+
+table td {
+	text-align: center;
+	font-weight: bolder;
+	line-height: 2em;
+}
